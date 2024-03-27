@@ -1,0 +1,12 @@
+# 上辺10cm
+the_top_side = 10
+# 下辺20cm
+the_bottom_side = 20
+# 高さ5cm
+height = 5
+
+# 台形の面積を計算
+summation = (the_top_side + the_bottom_side) * height / 2
+
+# 台形の面積を表示
+print("台形の面積は" + str(summation) + "㎠")
