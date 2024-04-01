@@ -1,0 +1,28 @@
+'''変更前のコード
+
+price1 = 100
+price2 = 200
+
+def total():
+  tax = 1.1
+  return price1 + price2
+
+print(total() * tax)
+
+'''
+
+# 変更後のコード
+
+# グローバル変数price1、price2を定義
+price1 = 100
+price2 = 200
+
+# 変数taxをグローバル変数として定義
+tax = 1.1
+
+# price1とprice2を加算するtotal関数を定義
+def total():
+  return price1 + price2
+
+# 計算結果を表示
+print(total() * tax)
